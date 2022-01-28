@@ -1,0 +1,12 @@
+
+var emp_rate_per_hr = 20;
+var empHrs , empWage =0;
+var empcheck = Math.random()*2;
+if(empcheck == 1){
+    empHrs = 8;
+}
+else {
+    empHrs = 4;
+}
+empWage = emp_rate_per_hr * empHrs;
+console.log("Daily wage of employee is "+empWage);
