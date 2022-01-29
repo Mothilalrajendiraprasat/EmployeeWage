@@ -1,0 +1,16 @@
+var emp_rate_per_hr = 20;
+var empHrs =0, empWage =0;
+var empcheck =  Math.floor(Math.random()*3);
+//random to compute the value of random number rang of 2 number
+if(empcheck == 1){
+    empHrs = 8;
+}
+else if(empcheck == 2){
+   empHrs =4;
+}
+else{
+     empHrs =0;
+}
+// daily wage give the employee rate per hour 20 and the emp hour 8 of day compute
+empWage = emp_rate_per_hr * empHrs;
+console.log("Daily wage of employee is "+empWage);
